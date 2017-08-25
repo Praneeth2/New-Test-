@@ -27,6 +27,8 @@ namespace firstmvc.Models
         }
         public Person Get(int id)
         {
+
+
             return _dbContext.People.SingleOrDefault(x => x.PersonID == id);
         }
         public void Insert(Person p)
