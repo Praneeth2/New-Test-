@@ -20,6 +20,8 @@ namespace firstmvc.Models
             _dbContext = dbContext;
         }
 
+
+
         public List<Person> GetAll()
         {
             return _dbContext.People.ToList();
